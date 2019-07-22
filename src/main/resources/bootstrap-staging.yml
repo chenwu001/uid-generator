@@ -1,0 +1,8 @@
+kj:
+  config:
+    enabled: true
+    uris:
+    - http://172.19.152.238:9000
+    - http://172.19.152.239:9000
+    username: admin # 通过配置中心服务端 访问用户名
+    password: 123456 # 通过配置中心服务端 访问密码

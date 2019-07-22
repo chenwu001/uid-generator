@@ -1,0 +1,7 @@
+kj:
+  config:
+    enabled: true
+    uris:
+    - http://192.168.4.104:2334
+    username: admin # 通过配置中心服务端 访问用户名
+    password: 123456 # 通过配置中心服务端 访问密码

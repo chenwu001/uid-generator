@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: uid
+  profiles:
+    active: ${profile:local}
+  main:
+    allow-bean-definition-overriding: true
+
+server:
+  port: ${port:2291}
+  
+kj:
+  config:
+    cache-path: ${app_home:.}/config/
+    overrideNone: true
+    overrideSystemProperties: false
+management:
+  endpoints:
+    web:
+      base-path: /ops
+      exposure:
+        include: '*'
